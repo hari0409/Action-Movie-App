@@ -1,0 +1,71 @@
+body{
+  background-color: #151515;
+  /* -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none; */
+}
+.popular-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 2rem;
+}
+span{
+  color: #DADBBD;
+}
+img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #FFE162;
+  transition: 250ms;
+  cursor: pointer;
+}
+img:hover{
+  transform: scale(1.05);
+}
+
+.movie-title {
+  font-size: 0.8rem;
+  color: white;
+}
+.filter-movies select{
+  background-color: #FAEEE7;
+  border-radius: 3px;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  display: flex;
+}
+.pager{
+  font-size: 1.45rem;
+  margin: 3px;
+}
+.page-counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.page-counter{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main-body{
+  margin: 5% 10%;
+}
+
+.image{
+  position: relative;
+  width: 300px;  
+}
+.image__img{
+  display: block;
+  width: 100%;
+}

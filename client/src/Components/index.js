@@ -1,0 +1,11 @@
+export {default as Login} from "./Login";
+export {default as Filter} from "./Filter";
+export {default as Movie} from "./Movie";
+export {default as Navbar} from "./Navbar";
+export {default as Navigator} from "./Navigator";
+export {default as Overlay} from "./Overlay";
+export {default as Popular} from "./Popular";
+export {default as Search} from "./Search";
+export {default as SignUp} from "./SignUp";
+export {default as Watchlist} from "./Watchlist";
+export {default as Recomended} from "./Recomended";
